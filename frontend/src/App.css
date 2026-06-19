@@ -1,0 +1,34 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+  width:100%;
+  min-height:100vh;
+}
+
+body{
+  font-family: Inter, sans-serif;
+  background:#170213;
+  color:white;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+button{
+  border:none;
+  cursor:pointer;
+}
+
+input,
+textarea{
+  outline:none;
+  font-family:inherit;
+}
