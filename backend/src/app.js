@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(cors({
     origin: ["http://localhost:5173",
-    process.env.FRONTEND_URL],
+    "https://two4-7-market.onrender.com"],
     credentials: true
 }));
 app.use(apiLimiter);
