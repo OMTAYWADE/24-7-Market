@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:3000/api"
+    baseURL: "https://two4-7-market-backend.onrender.com/api"
 });
 
 api.interceptors.request.use((config) => {
